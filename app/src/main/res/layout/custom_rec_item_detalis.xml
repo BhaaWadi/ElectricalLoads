@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:layout_marginStart="@dimen/_1sdp"
+    android:layout_marginEnd="@dimen/_1sdp"
+    android:layoutDirection="rtl"
+    android:background="@drawable/shape_item_layout"
+    >
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="الاتجاه"
+                    android:textColor="#939393"
+                    android:textSize="@dimen/_7ssp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_60sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="قدرة السكنية"
+                    android:textColor="#939393"
+                    android:textSize="@dimen/_7ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="قياس التيار"
+                    android:textColor="#939393"
+                    android:textSize="@dimen/_7ssp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:textColor="#939393"
+                    android:textSize="@dimen/_7ssp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="R"
+                    android:textColor="#939393"
+                    android:textSize="@dimen/_7ssp" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="S"
+                    android:textColor="#939393"
+                    android:textSize="@dimen/_7ssp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="T"
+                    android:textColor="#939393"
+                    android:textSize="@dimen/_7ssp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="N"
+                    android:textColor="#939393"
+                    android:textSize="@dimen/_7ssp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+                <TextView
+                    android:id="@+id/text_direction"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_7sdp"
+
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="الشرقي"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+
+                <TextView
+                    android:id="@+id/text_residential_capacity"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+
+                <TextView
+                    android:id="@+id/text_R"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+                <TextView
+                    android:id="@+id/text_S"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+                <TextView
+                    android:id="@+id/text_T"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+                <TextView
+                    android:id="@+id/text_N"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:layout_marginEnd="@dimen/_7sdp"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:text="الجهد بين الفازات"
+                android:textColor="#939393"
+                android:textSize="@dimen/_7ssp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Rs"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_7ssp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="RT"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_7ssp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:text="ST"
+                    android:textSize="@dimen/_7ssp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:text="RN"
+                    android:textSize="@dimen/_7ssp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:text="SN"
+                    android:textSize="@dimen/_7ssp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:text="TN"
+                    android:textSize="@dimen/_7ssp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_Rs"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+
+                <TextView
+                    android:id="@+id/text_RT"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_6sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+
+                <TextView
+                    android:id="@+id/text_St"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_6sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+                <TextView
+                    android:id="@+id/text_RN"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_6sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+                <TextView
+                    android:id="@+id/text_SN"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_6sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+                <TextView
+                    android:id="@+id/text_TN"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_6sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/shape_item_layout2"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:text="400"
+                    android:textColor="#4A4B4D"
+
+                    android:textSize="@dimen/_8ssp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

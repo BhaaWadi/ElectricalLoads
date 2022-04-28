@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/drawable-mdpi/shape_item_layout2.xml" value="0.138" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/drawable/shap_text_number.xml" value="0.242" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/drawable/shape_btn_details.xml" value="0.195" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/drawable/shape_dialog_btn_rest.xml" value="0.2595" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/drawable/shape_dialog_btn_send.xml" value="0.2595" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/drawable/shape_item_layout.xml" value="0.195" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/drawable/shape_layout_load.xml" value="0.2595" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/activity_details.xml" value="0.16" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/activity_home2.xml" value="0.2" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/activity_main.xml" value="0.2138671875" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/activity_new_size.xml" value="0.2" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/custom_dialog.xml" value="0.2" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/custom_item_home_activity.xml" value="0.6" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/custom_rec_item_detalis.xml" value="0.264" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/last_test.xml" value="0.190625" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/my_layout.xml" value="0.264" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/test.xml" value="0.264" />
+        <entry key="..\:/Exercises Android/ElectricalLoads/app/src/main/res/layout/test2.xml" value="0.23828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

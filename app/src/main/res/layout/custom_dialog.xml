@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAFAFA"
+    android:layoutDirection="rtl"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:src="@drawable/ic_ic_close" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="إضافة قراءة جديدة"
+        android:textColor="@color/black"
+
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginEnd="@dimen/_130sdp"
+        android:background="#1BAEF2"
+        android:visibility="invisible"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="الاتجاه"
+            android:textSize="@dimen/_7ssp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="قدرة السكنية"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+           android:layout_marginTop="@dimen/_1sdp"
+            android:background="@drawable/shape_item_layout2"
+            android:entries="@array/dialog_sp_data"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textSize="@dimen/_7ssp" />
+
+        <EditText
+            android:id="@+id/edit_residential_capacity"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:fontFamily="@font/ubuntu_regular"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/ubuntu_regular"
+        android:text="قياس التيار"
+        android:textSize="@dimen/_7ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="ٌR"
+            android:textSize="@dimen/_7ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:gravity="end"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:text="S"
+            android:paddingStart="@dimen/_3sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+
+
+        <EditText
+            android:id="@+id/edit_R"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textSize="@dimen/_7ssp" />
+
+        <EditText
+            android:id="@+id/edit_S"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:fontFamily="@font/ubuntu_regular"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="T"
+            android:textSize="@dimen/_7ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:gravity="end"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:text="N"
+            android:paddingStart="@dimen/_3sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edit_T"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textSize="@dimen/_7ssp" />
+
+        <EditText
+            android:id="@+id/edit_N"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:fontFamily="@font/ubuntu_regular"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/ubuntu_regular"
+        android:text="قياس التيار"
+        android:textSize="@dimen/_7ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="RS"
+            android:textSize="@dimen/_7ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:gravity="end"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:text="RT"
+            android:paddingStart="@dimen/_3sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edit_RS"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textSize="@dimen/_7ssp" />
+
+        <EditText
+            android:id="@+id/edit_RT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:fontFamily="@font/ubuntu_regular"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="ST"
+            android:textSize="@dimen/_7ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:gravity="end"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:text="RN"
+            android:paddingStart="@dimen/_3sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edit_ST"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textSize="@dimen/_7ssp" />
+
+        <EditText
+            android:id="@+id/edit_RN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:fontFamily="@font/ubuntu_regular"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="SN"
+            android:textSize="@dimen/_7ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_regular"
+            android:gravity="end"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:text="TN"
+            android:paddingStart="@dimen/_3sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edit_SN"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textSize="@dimen/_7ssp" />
+
+        <EditText
+            android:id="@+id/edit_TN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_item_layout2"
+            android:fontFamily="@font/ubuntu_regular"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:text="اضافة"
+
+            android:textColor="@color/white"
+            android:background="@drawable/shape_dialog_btn_send"
+            android:paddingStart="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textSize="@dimen/_7ssp" />
+
+        <Button
+            android:id="@+id/btn_rest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_dialog_btn_rest"
+            android:fontFamily="@font/ubuntu_regular"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:textColor="#939393"
+
+
+            android:paddingBottom="@dimen/_7sdp"
+
+            android:text="إعادة تعيين"
+            android:textSize="@dimen/_7ssp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

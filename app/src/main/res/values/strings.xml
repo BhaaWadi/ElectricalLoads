@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Electrical Loads</string>
+    <string name="text_maintenance">الصيانة</string>
+    <string name="text_loads">الأحمال</string>
+
+    <array name="dialog_sp_data">
+        <item>اختر الإتجاه</item>
+        <item>شمال</item>
+        <item>جنوب</item>
+        <item>شرق</item>
+        <item>غرب</item>
+
+
+
+    </array>
+</resources>
